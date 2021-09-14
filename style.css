@@ -1,0 +1,280 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.d-flex{
+    margin-top: 1%;
+}
+#backbutton
+{
+    border-radius: 5px;
+    height: 2%;
+    margin-top: 1%;
+}
+
+#onbutton
+{
+    border-radius: 5px;
+    height: 2%;
+    margin-top: 1%;
+    text-decoration: none;
+    background-color: rgb(175, 38, 38);
+    margin-left: 1%;
+    color: white;
+}
+#image
+{
+  
+  
+
+text-align: center;
+height:450px;
+width:100%;
+
+}
+
+
+#pimage
+{
+    width:30%;
+    height:350px;
+   
+  
+}
+
+.d-flex
+{
+    margin: 2%;
+    width: 79%;
+    padding-left: 2%;
+}
+
+.input
+{
+    margin: 11px;
+}
+
+#parentcontainer
+{
+    margin-top: 1%;
+    /* border: 2px solid black; */
+    
+   
+    
+}
+
+
+.baap
+{
+    display:flex ;
+}
+
+.parentdetails
+{
+    margin-top: 3%;
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 62%;
+    
+    display: flex;
+    border-radius: 25px;
+    margin-left:2%;
+    background-color: rgb(76, 187, 159);
+    box-shadow: 13px 13px 44px slategray;
+}
+
+
+.details{
+margin: 5%;
+text-align: center;
+margin-left:12%;
+width: 40%;
+}
+
+.det
+{
+   padding: 5%;
+   margin: 5%;
+}
+
+.det h2{
+    margin-bottom: 52%;
+}
+
+.parenttype
+{
+  
+    margin-top: 3%;
+    /* border: 2px solid black; */
+    width: 50%;
+    height:100%;
+    
+   
+    border-radius: 25px;
+    margin-left:9%;
+    margin-right: 3%;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+background-color: rgb(202, 104, 169);
+box-shadow: 13px 13px 44px slategray;
+}
+.parenttype h2{
+    margin-bottom: 8%;
+    margin-top: 2%;
+  
+}
+ 
+
+
+.parenttype button{
+
+width: 30%;
+text-align: center;
+margin: 1%;
+margin-bottom: 2.3%;
+border-radius: 9px;
+}
+#type1
+{
+    background-color: rgb(116, 204, 138);
+    
+}
+
+#type2
+{
+    background-color: rgb(211, 20, 137);
+    
+}
+#type2
+{
+    background-color: rgb(10, 112, 245);
+    color: beige;
+    margin-bottom: 15.3%;
+    
+}
+
+
+@media screen and (max-width: 770px) {
+    body {
+      background-color: blue;
+    }
+
+    .det button
+    {
+        width: 100%;
+        
+       
+
+        
+        
+    }
+
+    .det button h3{
+        font-size: small;
+      
+        display: block;
+        overflow: scroll;
+        width: 100%
+
+       
+    }
+
+
+.lol
+{
+    font-size: large;
+}
+
+.parenttype button h3{
+    font-size: large;
+
+}
+
+
+.newone
+{
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 4px;
+    background-color: aquamarine;
+    border-radius: 13px;
+}
+
+#image
+{
+    width: 100%;
+}
+
+#image img {
+
+    width: 70%;
+};
+ 
+
+  }
+
+
+
+
+  @media screen and (max-width: 520px)
+  {
+      body {
+background-color: rgb(131, 100, 160)
+      }
+
+.d-flex
+{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.baap
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.parentdetails
+{
+    width: 100%;
+}
+
+.parenttype
+{
+    width: 98%;
+    margin: 10px;
+}
+ 
+.common{
+    width: 30%;
+    margin-left: 3%;
+   
+}
+#onbutton{
+    margin-left: 2.8%;
+}
+
+#pokename
+{
+    color: blue;
+}
+
+#pokeorder{
+    color: rgb(83, 44, 42);
+}
+
+.border
+{
+    background-color: rgb(101, 21, 248);
+    border-radius: 7px;
+}
+
+
+  }
