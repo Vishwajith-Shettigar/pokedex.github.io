@@ -120,7 +120,7 @@ search.addEventListener('click',()=>
     searchinput="";
 
     searchinput=document.getElementById('inputfieled').value;
-
+    searchinput=searchinput.toLowerCase()
 
 
  let xhr= new XMLHttpRequest();
