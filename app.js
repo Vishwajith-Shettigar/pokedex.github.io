@@ -208,9 +208,18 @@ let type3=document.getElementById('type3');
 
 let type1p=result.types[0].type.name;
 type1.innerHTML=type1p;
-let type2p=result.types[1].type.name;
-
+let type2p="undefined";
+try{
+    type2p=result.types[1].type.name;
     type2.innerHTML=type2p;
+
+}
+catch(e)
+{
+    type2.innerHTML="###"
+}
+//    console.log(type2p);
+  
 
 
 // let type3p=result.types[2].type.name;
